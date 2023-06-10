@@ -142,7 +142,7 @@ ngle-pricing {
   }
 }
 .single-pricing:hover {
-  box-shadow: 0px 60px 60px rgba(22, 255, 1, 0.1);
+  box-shadow: 0px 60px 60px rgba(255, 21, 21, 0.1);
   z-index: 100;
   transform: translate(0, -10px);
 }
@@ -214,7 +214,11 @@ ngle-pricing {
   text-decoration: none;
 }
 .single-pricing {
-  background-color: #32475b;
+  background-color: #23242a;
+  border-radius: 10px;
+  padding: 10px 0;
+  box-shadow: 0 10px 10px -5px #000;
+  box-sizing: border-box;
 }
 .single-pricing a:hover,
 .single-pricing a:focus {
@@ -240,9 +244,16 @@ ngle-pricing {
 
 /* Call TO Action */
 #cta {
+  background-image: url("./images/cta.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9));
+  background-position: center;
+  background-size: cover;
   padding: 5% 15%;
   text-align: center;
+  position: relative;
+  padding: 5% 15%;
 }
+
 .cta-heading {
   font-family: "Montserrat";
   font-weight: bolder;
